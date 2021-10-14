@@ -33,5 +33,5 @@ jobs:
           publish_branch: gh-pages
           keep_files: true
           user_name: guowenping123
-          user_email: yanboyang713@gmail.com
+          user_email: 13312071831@163.com
           cname: guowenping.com
