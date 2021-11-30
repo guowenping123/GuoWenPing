@@ -11,7 +11,7 @@ googleAnalytics = "UA-101949995-1"
 
 [menu]
   [[menu.main]]
-    identifier = "home"
+    identifier = "首页"
     name = "首页"
     url = "/"
     weight = 1
