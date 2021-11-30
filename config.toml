@@ -12,7 +12,7 @@ googleAnalytics = "UA-101949995-1"
 [menu]
   [[menu.main]]
     identifier = "home"
-    name = "Home"
+    name = "首页"
     url = "/"
     weight = 1
   [[menu.main]]
@@ -21,7 +21,7 @@ googleAnalytics = "UA-101949995-1"
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
+    name = "文章"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
@@ -30,12 +30,12 @@ googleAnalytics = "UA-101949995-1"
     identifier = "tags"
     pre = ""
     post = ""
-    name = "Tags"
+    name = "关键词"
     url = "/tags/"
     title = ""
     weight = 3
   [[menu.main]]
-    identifier = "categories"
+    identifier = "分类"
     pre = ""
     post = ""
     name = "Categories"
@@ -44,8 +44,8 @@ googleAnalytics = "UA-101949995-1"
     weight = 4
   [[menu.main]]
     identifier = "About Me"
-    name = "About Me"
-    url = "/about/"
+    name = "与我相关"
+    url = "/about/"4
     weight = 5
 
 [params]
