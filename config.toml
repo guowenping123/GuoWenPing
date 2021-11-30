@@ -45,7 +45,7 @@ googleAnalytics = "UA-101949995-1"
   [[menu.main]]
     identifier = "About Me"
     name = "与我相关"
-    url = "/about/"4
+    url = "/about/"
     weight = 5
 
 [params]
