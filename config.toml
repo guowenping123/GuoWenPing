@@ -42,7 +42,7 @@ googleAnalytics = "UA-101949995-1"
 
   [languages.zh-cn]
     weight = 2
-    title = "我的全新 Hugo 网站"
+    title = "平子的全新网站"
     # 网站语言, 仅在这里 CN 大写
     languageCode = "zh-CN"
     languageName = "简体中文"
