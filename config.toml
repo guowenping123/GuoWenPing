@@ -9,44 +9,72 @@ title = "WenPing Guo's Knowledge Blog"
 theme = "CodeIT"
 googleAnalytics = "UA-101949995-1"
 
-[menu]
-  [[menu.main]]
-    identifier = "首页"
-    name = "首页"
-    url = "/"
+# [en, zh-cn, fr, pl, ...] 设置默认的语言
+defaultContentLanguage = "zh-cn"
+
+[languages]
+  [languages.en]
     weight = 1
-  [[menu.main]]
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "文章"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
+    title = "My New Hugo Site"
+    languageCode = "en"
+    languageName = "English"
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+      weight = 3
+
+  [languages.zh-cn]
     weight = 2
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "关键词"
-    url = "/tags/"
-    title = ""
-    weight = 3
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "分类"
-    url = "/categories/"
-    title = ""
-    weight = 4
-  [[menu.main]]
-    identifier = "About Me"
-    name = "与我相关"
-    url = "/about/"
-    weight = 5
+    title = "我的全新 Hugo 网站"
+    # 网站语言, 仅在这里 CN 大写
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    # 是否包括中日韩文字
+    hasCJKLanguage = true
+    [[languages.zh-cn.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "文章"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.zh-cn.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "标签"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.zh-cn.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "分类"
+      url = "/categories/"
+      title = ""
+      weight = 3
 
 [params]
   #  LoveIt theme version
