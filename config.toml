@@ -3,7 +3,7 @@ baseURL = "https://yanboyang.com/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "平子"
+title = "WenPing Guo's Knowledge Blog"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "CodeIT"
@@ -35,10 +35,10 @@ googleAnalytics = "UA-101949995-1"
     title = ""
     weight = 3
   [[menu.main]]
-    identifier = "分类"
+    identifier = "categories"
     pre = ""
     post = ""
-    name = "Categories"
+    name = "分类"
     url = "/categories/"
     title = ""
     weight = 4
