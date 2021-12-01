@@ -1,16 +1,13 @@
 baseURL = "https://yanboyang.com/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 # language code
-languageCode = "en"
+languageCode = "zh-cn"
 title = "WenPing Guo's Knowledge Blog"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "CodeIT"
 googleAnalytics = "UA-101949995-1"
-
-# [en, zh-cn, fr, pl, ...] 设置默认的语言
-defaultContentLanguage = "zh-cn"
 
 [languages]
   [languages.en]
