@@ -73,7 +73,7 @@ googleAnalytics = ""
       # site keywords
       keywords = ["平子", "博客"]
     # Home page profile
-    [languages.en.params.home.profile]
+    [languages.zh-cn.params.home.profile]
       #  title shown in home page (HTML format is supported)
       title = "平子的博客"
       # subtitle shown in home page
