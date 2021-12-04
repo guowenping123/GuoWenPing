@@ -49,6 +49,14 @@ googleAnalytics = "UA-101949995-1"
     # 是否包括中日韩文字
     hasCJKLanguage = true
     [[languages.zh-cn.menu.main]]
+      identifier = "home"
+      pre = ""
+      post = ""
+      name = "首页"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.zh-cn.menu.main]]
       identifier = "posts"
       pre = ""
       post = ""
