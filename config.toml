@@ -15,6 +15,17 @@ googleAnalytics = ""
     title = "Ping zi's new Website Site"
     languageCode = "en"
     languageName = "English"
+    [languages.en.params]
+      # site description
+      description = "This is Ping zi's Tech Blog"
+      # site keywords
+      keywords = ["ping zi", "blog"]
+    # Home page profile
+    [languages.en.params.home.profile]
+      #  title shown in home page (HTML format is supported)
+      title = "Ping Zi's Blog"
+      # subtitle shown in home page
+      subtitle = "Life Blog"
     [[languages.en.menu.main]]
       identifier = "home"
       pre = ""
@@ -56,6 +67,17 @@ googleAnalytics = ""
     languageName = "简体中文"
     # 是否包括中日韩文字
     hasCJKLanguage = true
+    [languages.zh-cn.params]
+      # site description
+      description = "平子的全新网站"
+      # site keywords
+      keywords = ["平子", "博客"]
+    # Home page profile
+    [languages.en.params.home.profile]
+      #  title shown in home page (HTML format is supported)
+      title = "平子的博客"
+      # subtitle shown in home page
+      subtitle = "平子的博客"
     [[languages.zh-cn.menu.main]]
       identifier = "home"
       pre = ""
@@ -92,12 +114,8 @@ googleAnalytics = ""
 [params]
   #  LoveIt theme version
   version = "0.2.X"
-  # site description
-  description = "This is Boyang Yan's Tech Blog"
-  # site keywords
-  keywords = ["Theme", "Hugo"]
   # site default theme ("light", "dark", "auto")
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   gitRepo = ""
   #  which hash function used for SRI, when empty, no SRI is used
@@ -211,10 +229,6 @@ googleAnalytics = ""
       gravatarEmail = "yanboyang713@gmail.com"
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
-      #  title shown in home page (HTML format is supported)
-      title = "Boyang Yan's Blog"
-      # subtitle shown in home page
-      subtitle = "Tech Blog"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
