@@ -22,10 +22,21 @@ googleAnalytics = ""
       keywords = ["ping zi", "blog"]
     # Home page profile
     [languages.en.params.home.profile]
+      enable = true
       #  title shown in home page (HTML format is supported)
       title = "Ping Zi's Blog"
       # subtitle shown in home page
       subtitle = "Life Blog"
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = "yanboyang713@gmail.com"
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      #  disclaimer (HTML format is supported)
+      disclaimer = ""          
     [[languages.en.menu.main]]
       identifier = "home"
       pre = ""
@@ -74,10 +85,21 @@ googleAnalytics = ""
       keywords = ["平子", "博客"]
     # Home page profile
     [languages.zh-cn.params.home.profile]
+      enable = true
       #  title shown in home page (HTML format is supported)
       title = "平子的博客"
       # subtitle shown in home page
       subtitle = "学术与生活"
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = "yanboyang713@gmail.com"
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      #  disclaimer (HTML format is supported)
+      disclaimer = ""
     [[languages.zh-cn.menu.main]]
       identifier = "home"
       pre = ""
@@ -222,19 +244,6 @@ googleAnalytics = ""
   [params.home]
     #  amount of RSS pages
     rss = 10
-    # Home page profile
-    [params.home.profile]
-      enable = true
-      # Gravatar Email for preferred avatar in home page
-      gravatarEmail = "yanboyang713@gmail.com"
-      # URL of avatar shown in home page
-      avatarURL = "/images/avatar.png"
-      # whether to use typeit animation for subtitle
-      typeit = true
-      # whether to show social links
-      social = true
-      #  disclaimer (HTML format is supported)
-      disclaimer = ""
     # Home page posts
     [params.home.posts]
       enable = true
