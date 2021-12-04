@@ -77,7 +77,7 @@ googleAnalytics = ""
       #  title shown in home page (HTML format is supported)
       title = "平子的博客"
       # subtitle shown in home page
-      subtitle = "平子的博客"
+      subtitle = "学术与生活"
     [[languages.zh-cn.menu.main]]
       identifier = "home"
       pre = ""
