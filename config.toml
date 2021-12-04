@@ -1,4 +1,4 @@
-baseURL = "https://yanboyang.com/"
+baseURL = "https://guowenping.com/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "zh-cn"
 # language code
@@ -7,14 +7,22 @@ title = "WenPing Guo's Knowledge Blog"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "CodeIT"
-googleAnalytics = "UA-101949995-1"
+googleAnalytics = ""
 
 [languages]
   [languages.en]
     weight = 1
-    title = "My New Hugo Site"
+    title = "Ping zi's new Website Site"
     languageCode = "en"
     languageName = "English"
+    [[languages.en.menu.main]]
+      identifier = "home"
+      pre = ""
+      post = ""
+      name = "home"
+      url = "/"
+      title = ""
+      weight = 1
     [[languages.en.menu.main]]
       identifier = "posts"
       pre = ""
@@ -22,7 +30,7 @@ googleAnalytics = "UA-101949995-1"
       name = "Posts"
       url = "/posts/"
       title = ""
-      weight = 1
+      weight = 2
     [[languages.en.menu.main]]
       identifier = "tags"
       pre = ""
@@ -30,7 +38,7 @@ googleAnalytics = "UA-101949995-1"
       name = "Tags"
       url = "/tags/"
       title = ""
-      weight = 2
+      weight = 3
     [[languages.en.menu.main]]
       identifier = "categories"
       pre = ""
@@ -38,7 +46,7 @@ googleAnalytics = "UA-101949995-1"
       name = "Categories"
       url = "/categories/"
       title = ""
-      weight = 3
+      weight = 4
 
   [languages.zh-cn]
     weight = 2
@@ -53,7 +61,7 @@ googleAnalytics = "UA-101949995-1"
       pre = ""
       post = ""
       name = "首页"
-      url = "/posts/"
+      url = "/"
       title = ""
       weight = 1
     [[languages.zh-cn.menu.main]]
@@ -63,7 +71,7 @@ googleAnalytics = "UA-101949995-1"
       name = "文章"
       url = "/posts/"
       title = ""
-      weight = 1
+      weight = 2
     [[languages.zh-cn.menu.main]]
       identifier = "tags"
       pre = ""
@@ -71,7 +79,7 @@ googleAnalytics = "UA-101949995-1"
       name = "标签"
       url = "/tags/"
       title = ""
-      weight = 2
+      weight = 3
     [[languages.zh-cn.menu.main]]
       identifier = "categories"
       pre = ""
@@ -79,7 +87,7 @@ googleAnalytics = "UA-101949995-1"
       name = "分类"
       url = "/categories/"
       title = ""
-      weight = 3
+      weight = 4
 
 [params]
   #  LoveIt theme version
