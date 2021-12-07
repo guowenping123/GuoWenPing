@@ -255,11 +255,11 @@ googleAnalytics = ""
 
   # Social config about the author
   [params.social]
-    GitHub = "yanboyang713"
-    Linkedin = "boyang-yan-50a70763"
+    GitHub = "guowenping123"
+    Linkedin = ""
     Twitter = ""
     Instagram = ""
-    Facebook = "boyang.yan.52"
+    Facebook = ""
     Telegram = ""
     Medium = ""
     Gitlab = ""
@@ -317,7 +317,7 @@ googleAnalytics = ""
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "yanboyang713@gmail.com"
+    Email = "13312071831@163.com"
     RSS = true # 
 
   #  Page config
@@ -603,8 +603,8 @@ googleAnalytics = ""
 
 # Author config
 [author]
-  name = "Boyang Yan"
-  email = "yanboyang713@gmail.com"
+  name = "Wenping Guo"
+  email = "13312071831@163.com"
   link = ""
 
 # Sitemap config
