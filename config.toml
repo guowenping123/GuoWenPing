@@ -139,7 +139,14 @@ googleAnalytics = ""
       url = "/categories/"
       title = ""
       weight = 4
-
+ [[languages.zh-cn.menu.main]]
+      identifier = "个人简介"
+      pre = ""
+      post = ""
+      name = "个人简介"
+      url = "/个人简介/"
+      title = ""
+      weight = 5
 [params]
   #  LoveIt theme version
   version = "0.2.X"
