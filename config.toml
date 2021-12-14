@@ -69,7 +69,14 @@ googleAnalytics = ""
       url = "/categories/"
       title = ""
       weight = 4
-
+[[languages.en.menu.main]]
+      identifier = "about me"
+      pre = ""
+      post = ""
+      name = "about me"
+      url = "/about me/"
+      title = ""
+      weight = 5
   [languages.zh-cn]
     weight = 2
     title = "平子的全新网站"
