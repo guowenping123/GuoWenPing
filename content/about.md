@@ -4,7 +4,14 @@ date: 2021-03-05T06:11:32+10:00
 comments: false
 ---
 # Personal Evaluation
-I see myself advancing with a strong ability and interesting in new technology and academic research. I successfully participated two international academic conferences, one published paper and one patent. In the University study, I got undergraduate scholarships and the best prize for final project. The final project is related to swipe card system. My insteresting research area on computer graphic, softerware testing and machine learning.
+I see myself advancing with a strong ability and interesting in life and academic research. About academic：I successfully participated one international academic conference,one china physiological annual meetingone and publish an academic poster. I have a wide range of hobbies. Such as sports, dancing, singing, food, fishing and so on.In terms of competitive sports, I won the first prize of the China Cheerleading Championship and the second prize of the Beijing-Tianjin-Hebei campus hip-hop competition.These awards all stem from my love for life.I hope you all have a good mood every day#include<stdio.h>
+#include<conio.h>
+struct move_point
+{
+int x,y;
+int xv,yv;
+}man
+
 
 # Working Experience
 1. 2020.3 - 2021.6
