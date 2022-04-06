@@ -1,1 +1,654 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>所有文章 - 平子的全新网站</title><link>https://guowenping.com/posts/</link><description>所有文章 | 平子的全新网站</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>13312071831@163.com (Wenping Guo)</managingEditor><webMaster>13312071831@163.com (Wenping Guo)</webMaster><lastBuildDate>Sat, 04 Dec 2021 06:11:32 +1000</lastBuildDate><atom:link href="https://guowenping.com/posts/" rel="self" type="application/rss+xml"/><item><title>平子的全新网站</title><link>https://guowenping.com/test/</link><pubDate>Sat, 04 Dec 2021 06:11:32 +1000</pubDate><author>13312071831@163.com</author><dc:creator>Wenping Guo</dc:creator><guid>https://guowenping.com/test/</guid><description>平子的全新网站 写啥呢？</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Boyang Yan&#39;s Tech Blog</title>
+    <link>https://yanboyang.com/posts/</link>
+    <description>Recent content in Posts on Boyang Yan&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>yanboyang713@gmail.com (Boyang Yan)</managingEditor>
+    <webMaster>yanboyang713@gmail.com (Boyang Yan)</webMaster>
+    <lastBuildDate>Sat, 29 May 2021 06:11:32 +1000</lastBuildDate><atom:link href="https://yanboyang.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Scala</title>
+      <link>https://yanboyang.com/scala/</link>
+      <pubDate>Sat, 29 May 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/scala/</guid>
+      <description>Overview Why need to learn Scala  Spark and Flink are memory-level big data computing framework are very important part of big data. Spark and Flink are written in Scala. Therefore, in order to learn Spark and Flink better, you need to master the language Scala. The rise of Spark drives the development of the Scala language!  Scala history Martin Odersky of the Federal Institute of Technology began designing Scala in 2001.</description>
+    </item>
+    
+    <item>
+      <title>ESXi</title>
+      <link>https://yanboyang.com/esxi/</link>
+      <pubDate>Fri, 09 Apr 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/esxi/</guid>
+      <description>ESXi Installation Prerequisites  Linux machine with superuser access to it USB flash drive that can be detected by the Linux machine The ESXi ISO image, VMware-VMvisor-Installer-version_number-build_number.x86_64.iso, which includes the isolinux.cfg file Syslinux package  Procedure  Determine USB flash drive (1). list disk using fdisk  1 2 3 4 5 6 7 8 9 10 11 12 13 14  [yanboyang713@boyang ~]$ sudo fdisk -l [sudo] password for yanboyang713: Disk /dev/nvme0n1: 465.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Flink</title>
+      <link>https://yanboyang.com/flink/</link>
+      <pubDate>Mon, 05 Apr 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/flink/</guid>
+      <description>https://flink.apache.org/downloads.html</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Spacemacs/Emacs</title>
+      <link>https://yanboyang.com/spacemacs/</link>
+      <pubDate>Sun, 04 Apr 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/spacemacs/</guid>
+      <description>Installation Run Emacs in Docker https://github.com/Silex/docker-emacs
+Usage Console 1  docker run -it --rm silex/emacs   GUI 1 2  xhost +local:root # WARN: this comes with security issues docker run -it --rm -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix silex/emacs   Arch Linux (Manjaro) 1  yay -S emacs   1  yay -S adobe-source-code-pro-fonts   clone spacemacs repo and use develop branch
+1  git clone https://github.com/syl20bnr/spacemacs.git ~/.</description>
+    </item>
+    
+    <item>
+      <title>Writing Mathematic Fomular</title>
+      <link>https://yanboyang.com/writingmathematicfomular/</link>
+      <pubDate>Tue, 09 Mar 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/writingmathematicfomular/</guid>
+      <description>Greek Letters    Symbol Script     $$\begin{equation}\alpha\end{equation}$$ \alpha   $A$ A   $\beta$ \beta   $B$ B   $\gamma$ \gammma   $\Gamma$ \Gamma   $\pi$ \pi   $\Pi$ \Pi   $\phi$ \phi   $\Phi$ \Phi   $\varphi$ \varphi   $\theta$ \theta    Operators    Symbol Script     $\cos$ \cos   $\sin$ \sin   $\lim$ \lim   $\exp$ \exp   $\to$ \to   $\infty$ \infty   $\equiv$ \equiv   $\bmod$ \bmod   $\times$ \times    Power and Indices    Symbol Script     $k_{n+1}$ k_{n+1}   $n^2$ n^2   $k_n^2$ k_n^2    Fractions and Binomials    Symbol Script     $\frac{n!</description>
+    </item>
+    
+    <item>
+      <title>Data Wrangling (Data Preprocessing)</title>
+      <link>https://yanboyang.com/datapreprocessing/</link>
+      <pubDate>Fri, 05 Mar 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/datapreprocessing/</guid>
+      <description>Module 1 - Data Preprocessing: From Raw Data to Ready to Analyse Summary Module 1 will set the background for the entire course. Data preprocessing will be defined and the importance of data preprocessing inside the data analysis workflow will be explored. The module will define 5 major tasks for data preprocessing and will provide a quick overview of these tasks. Then, in the following modules of this course, we will unwrap each data preprocessing task by providing details of operations related to that task.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with R language</title>
+      <link>https://yanboyang.com/rlanguage/</link>
+      <pubDate>Thu, 04 Mar 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/rlanguage/</guid>
+      <description>Summary This course will get you started with learning R and using the RStudio IDE. The course will cover installation of R and RStudio and using RStudio’s basic features and the basics of R programming.
+Learning Objectives By the end of this course, you will have covered the following:
+ Installing R and RStudio An overview of the RStudio interface Basic programming in R  Why we learn R In this blog, you won’t learn anything about Excel, SPSS, SQL, SAS, Python, Julia, or any other statistical package/programming language useful for data preprocessing.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Statistics (Applied Analytics)</title>
+      <link>https://yanboyang.com/introductiontostatistics-appliedanalytics/</link>
+      <pubDate>Wed, 03 Mar 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/introductiontostatistics-appliedanalytics/</guid>
+      <description>What is Statistics? Statistics is the science of collecting, organizing, analyzing, and interpreting data in order to make decisions.
+Some informal definitions of statistics, provided by various well-known statisticians, are
+ The science of learning from (or making sense out of) data (J. Kettenring). The theory and methods of extracting information from observational data for solving real-world problems (C.R. Rao). The science of uncertainty (D.J. Hand). The art of telling a story with data (L.</description>
+    </item>
+    
+    <item>
+      <title>4 big data architectures, Data Streaming, Lambda architecture, Kappa architecture and Unifield architecture</title>
+      <link>https://yanboyang.com/bigdataarchitectures/</link>
+      <pubDate>Mon, 01 Mar 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/bigdataarchitectures/</guid>
+      <description>Introduction Although data analysis is hidden behind the business system, it has a very important role. The results of data analysis play a pivotal role in decision-making and business development. With the development of big data technology, the exposure of proper terms such as data mining and data exploration is getting higher and higher, but before big data analysis systems similar to the Hadoop become popular, data analysis work has undergone considerable development, especially data analysis based on BI systems already has very mature and stable technical solutions and ecosystems.</description>
+    </item>
+    
+    <item>
+      <title>Getting started SQLite</title>
+      <link>https://yanboyang.com/sqlite/</link>
+      <pubDate>Mon, 01 Mar 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/sqlite/</guid>
+      <description>Introduction In this tutorial, you will learn SQLite step by step through extensive hands-on practices. This SQLite tutorial is designed for developers who want to use SQLite as the back-end database or to use SQLite to manage structured data in applications including desktop, web, and mobile apps. SQLite is an open-source, zero-configuration, self-contained, stand-alone, transaction relational database engine designed to be embedded into an application.
+Getting started with SQLite You should go through this section if this is the first time you have worked with SQLite.</description>
+    </item>
+    
+    <item>
+      <title>Launching RStudio in Docker</title>
+      <link>https://yanboyang.com/rstudio/</link>
+      <pubDate>Mon, 01 Mar 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/rstudio/</guid>
+      <description>Introduction RStudio Server enables you to provide a browser based interface to a version of R running on a remote Linux server, bringing the power and productivity of the RStudio IDE to server-based deployments of R.
+In this blog, I will talk about how to launch a Docker container that allows us to run RStudio in a browser using the &amp;ndash;rm flag when we run Docker makes the container ephemeral that mean it is automatically deleted after we close the container.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Opencv</title>
+      <link>https://yanboyang.com/opencv/</link>
+      <pubDate>Sat, 06 Feb 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/opencv/</guid>
+      <description>Introduction OpenCV is a popular framework widely used in the development of products for intelligent video analytics. Such solutions use both classic algorithms of computer vision (e.g. an algorithm for optical flow detection), and AI-based approaches, in particular, neural networks.
+Installing with Docker build:
+1  docker build -t my_pi_opencv_img .   run:
+1 2 3 4 5 6  docker run -it --rm \  -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY \  -v /home/yanboyang713/Documents/imagezmq:/home \  --name my_opencv_app_run \  my_pi_opencv_img \  /bin/bash    python -c &amp;ldquo;import cv2; print(cv2.</description>
+    </item>
+    
+    <item>
+      <title>High-performance Scalable Realtime Distributed Video Processing</title>
+      <link>https://yanboyang.com/realtimedistributedvideoprocessing/</link>
+      <pubDate>Sat, 06 Feb 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/realtimedistributedvideoprocessing/</guid>
+      <description>Introduction Opencv </description>
+    </item>
+    
+    <item>
+      <title>Azure Networking</title>
+      <link>https://yanboyang.com/azurevnet/</link>
+      <pubDate>Tue, 05 Jan 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/azurevnet/</guid>
+      <description>Create a virtual network using the Azure CLI A virtual network enables Azure resources, like virtual machines (VMs), to communicate privately with each other, and with the internet. In this quickstart, you learn how to create a virtual network. After creating a virtual network, you deploy two VMs into the virtual network. You then connect to the VMs from the internet, and communicate privately over the new virtual network.
+Create a resource group and a virtual network Before you can create a virtual network, you have to create a resource group to host the virtual network.</description>
+    </item>
+    
+    <item>
+      <title>Azure Machine Learning</title>
+      <link>https://yanboyang.com/aml/</link>
+      <pubDate>Mon, 04 Jan 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/aml/</guid>
+      <description>Create a new Azure Machine Learning I recommand you create a new AML workspace use an Azure Resource Manager Template from Azure CLI. The Azure Resource Manager template can be found in the 201-machine-learning-advanced in GitHub repository.
+This template creates the following Azure services, all those various services are required by the Azure Machine Learning workspace:
+ Azure Storage Account Azure Key Vault Azure Application Insights Azure Container Registry Azure Machine Learning workspace  Firstly, we need create a resource group, there is a example at the below.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with LLDB</title>
+      <link>https://yanboyang.com/lldb/</link>
+      <pubDate>Mon, 04 Jan 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/lldb/</guid>
+      <description>Introduction Install 1  yay -S clang lldb   Enable Debug Symbols gcc:
+1  c++ -g demo.cpp   Clang:
+1  clang++ -g demo.cpp   CMAKE:
+1  cmake -DCMAKE_BUILD_TYPE=Debug    </description>
+    </item>
+    
+    <item>
+      <title>Replacing Bash Scripting with Python</title>
+      <link>https://yanboyang.com/bashscriptingwithpython/</link>
+      <pubDate>Mon, 04 Jan 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/bashscriptingwithpython/</guid>
+      <description>Introduction </description>
+    </item>
+    
+    <item>
+      <title>The Ultimate Guide to Podman, Skopeo and Buildah</title>
+      <link>https://yanboyang.com/podmanandskopeoandbuildah/</link>
+      <pubDate>Sat, 02 Jan 2021 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/podmanandskopeoandbuildah/</guid>
+      <description>Overview https://docs.oracle.com/en/operating-systems/oracle-linux/podman/podman-containers.html#podman-command-reference
+Let&amp;rsquo;s we retire Docker and move to Podman. A whole new revolution of containerization started with the Docker where the daemon process manages the whole bunch of things and became one of the most popular and widely used container management systems. However, with the advent of standards from the Open Container Initiative (OCI), other runtimes are being developed. One such runtime is CRI-O, which was created along with a set of tools to provide alternate ways to work directly with containers.</description>
+    </item>
+    
+    <item>
+      <title>Azure Data Science Virtual Machine Getting Started</title>
+      <link>https://yanboyang.com/dsvm/</link>
+      <pubDate>Wed, 09 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/dsvm/</guid>
+      <description>Introduction Azure Data Science Virtual Machine(DSVM) is Azure Virtual Machine image, pre-installed, configured and tested with several popular tools that are data analytics, machine learning and AI training. DSVM will be your best option as your develop environment base on cloud. DSVM helps in flexible virtualization without the need for purchasing and maintenance of hardware. You will see the DSVM highlights at the below section. DSVM almost cover all of popular tools for data science.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Python using Conda</title>
+      <link>https://yanboyang.com/conda/</link>
+      <pubDate>Tue, 08 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/conda/</guid>
+      <description>Introduction This post document is about using Conda to management Python and R language packages (libraries/dependencies), as well as virtual environment. Conda is an open source package management system and environment management system. Conda can quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.</description>
+    </item>
+    
+    <item>
+      <title>SSH server set-up with multi-user and Security Practices</title>
+      <link>https://yanboyang.com/ssh/</link>
+      <pubDate>Tue, 08 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/ssh/</guid>
+      <description>Introduction This post document is about how to set-up SSH server base on Ubuntu OS. A lots of users have some concerns about SSH security, especially when multi-user or multi-group share to use with same SSH tunnel. So, this article will fouce on SSH server security practices with multi-user. In this article, first I will talk Linux User and Group Management.
+TIPS: When you using SSH connect with a host, CLI Text Editor is importance for editing some of config file.</description>
+    </item>
+    
+    <item>
+      <title>Azure Machine Learning Compute Instance Getting Started</title>
+      <link>https://yanboyang.com/amlci/</link>
+      <pubDate>Mon, 07 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/amlci/</guid>
+      <description>Introduction This post document is a brief introduction about Azure Machine Learning Service Compute Instance(CI). CI can be as your development environment or training compute tartget. TIPS: However, if your specialty on Linux, I recommand you using DSVM ({% post_link DSVM %}) as your development environment. For training process, I recommand you using Azure Machine Learning training cluster(Compute cluster).
+Managing a compute instance From portal In your workspace in Azure Machine Learning studio, select Compute, then select Compute Instance on the top.</description>
+    </item>
+    
+    <item>
+      <title>Extented Image Training Set Tips</title>
+      <link>https://yanboyang.com/extentedimagetrainingset/</link>
+      <pubDate>Mon, 07 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/extentedimagetrainingset/</guid>
+      <description>Introduction Regardless of the algorithm and framework used to train the neural network, the amount of image data is always an important prerequisite for determining the quality of the training model. Data expansion is a common method for training models, which is very important for the robustness and accuracy of the model. This post document will use OpenCV to show some of tips for how we can extented image training set.</description>
+    </item>
+    
+    <item>
+      <title>VIM Keyboard Shortcuts Cheatsheet</title>
+      <link>https://yanboyang.com/vim/</link>
+      <pubDate>Mon, 07 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/vim/</guid>
+      <description>Introduction This post document is brief introduction about how to use VIM/VI text editor and help you remember the shortcuts. The Vim editor is a command-line based tool that’s an enhanced version of the venerable vi editor. Despite the abundance of graphical rich text editors, familiarity with Vim will help every Linux user – from an experienced system administrator to a newbie Raspberry Pi user.
+One important thing to note when using Vim, is that the function of a key depends on the “mode” the editor is in.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Reverse Proxy</title>
+      <link>https://yanboyang.com/frp/</link>
+      <pubDate>Sun, 06 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/frp/</guid>
+      <description>What is frp? frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the Internet. As of now, it supports TCP and UDP, as well as HTTP and HTTPS protocols, where requests can be forwarded to internal services by domain name.
+frp also has a P2P connect mode.
+Architecture architecture
+Installation  Download the latest programs from Release page according to your operating system and architecture.</description>
+    </item>
+    
+    <item>
+      <title>linux basic commands and common tools</title>
+      <link>https://yanboyang.com/linux/</link>
+      <pubDate>Sun, 06 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/linux/</guid>
+      <description>Hardware Information There are plenty of commands to check information about the hardware of Linux system. Some commands report only specific hardware components like CPU or memory while the rest cover multiple hardware units. This section will look at some of the most commonly used commands to check information and configuration details about various hardware peripherals and devices.
+The list includes lscpu, hwinfo, lshw, dmidecode, lspci etc.
+lscpu The lscpu command reports information about the cpu and processing units.</description>
+    </item>
+    
+    <item>
+      <title>Azure Machine Learning Workspace Authentication Troubleshooting Guide</title>
+      <link>https://yanboyang.com/amlworkspaceauthentication/</link>
+      <pubDate>Sat, 05 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/amlworkspaceauthentication/</guid>
+      <description>Could you try using config.json file connect to your Azure ML Workspace first? The steps you can following at the below.
+ Go to https://portal.azure.com/ Download config.json config.json Story config.json to the same directory as your Python code. run python code at the below  1 2 3  from azureml.core import Workspace ws = Workspace.from_config() print(&amp;#34;Found workspace {}at location {}&amp;#34;.format(ws.name, ws.location))    If using config.json file connect to your Azure ML Workspace does not work, please check your SDK version and update your SDK.</description>
+    </item>
+    
+    <item>
+      <title>Intellectual Property Foundation and Patent Mining</title>
+      <link>https://yanboyang.com/patent/</link>
+      <pubDate>Sat, 05 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/patent/</guid>
+      <description>Introduction Scope of Intellectual Property Intellectual property Also known as &amp;ldquo;intellectual property rights&amp;rdquo;, it refers to the broad fields of industry, technology, science and art The exclusive legal rights involved in intellectual creation, invention and innovation. Intellectual property rights include: Copyright (copyright), trademark, patent, Trade secrets, new plant varieties, semiconductor integrated circuit design, trade name (company name)
+Patent Type Total have three type of patent
+ Invention New technical solutions for products, methods or their combination.</description>
+    </item>
+    
+    <item>
+      <title>Setting up an Linux Router with bridge</title>
+      <link>https://yanboyang.com/ubunturouter/</link>
+      <pubDate>Fri, 04 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/ubunturouter/</guid>
+      <description>Introduction This post document is about how to build a Linux gateway. The gateway connects an internal network to an external network. Basically, performing Network Address Translation (NAT) for hosts on the internal network. It is exceptionally similar to what your home router does.
+User Scenario  Acting as a router at home or in office as a local area network. Connecting multi-network cameras to Linux Server for transfer image data.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Basler Camera With Opencv on Python</title>
+      <link>https://yanboyang.com/baslerwithopencv/</link>
+      <pubDate>Thu, 03 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/baslerwithopencv/</guid>
+      <description>Introduction This post document is about using Basler Camera with Opencv on Python. At the beginning of this guide I will introduct how to set-up development environment with Pylon and opencv within Conda virual environment. Seconly, I will talk about how to check and set some of basic Basler feature base on pypylon. At the end, I will give a example about using Opencv read Basler Camera data stream.
+Hardware and Software Testing Environment Hardware Environment  Camera: Basler (a2A1920 - 51gcPRO) Network Adapter: Intel I350 Gigabit Network adapter (POE) CPU: Intel(R) Core(TM) i7-9700F CPU @ 3.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with UML (Unified Modeling Language)</title>
+      <link>https://yanboyang.com/plantuml/</link>
+      <pubDate>Tue, 01 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/plantuml/</guid>
+      <description>Introduction This post document will brief introduct UML at the begining. After, will talk how using PlantUML for drawing UML diagrams. At the end, how does PlantUML integrate with Markdown and Emacs(Spacemacs).
+UML Basics PlantUML Basics Reasons for using PlantUML Markdown Emacs (Spacemacs) Summary </description>
+    </item>
+    
+    <item>
+      <title>Guide to File Formats for Machine Learning</title>
+      <link>https://yanboyang.com/machinelearningfileformats/</link>
+      <pubDate>Tue, 01 Sep 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/machinelearningfileformats/</guid>
+      <description>Introduction This post document is a guide to the popular file formats used in open source frameworks for machine learning in Python, including TensorFlow/Keras, PyTorch, Scikit-Learn, and PySpark. We will also describe how a Feature Store can make the Data Scientist’s life easier by generating training/test data in a file format of choice on a file system of choice. This guide is base on Jim Dowling&amp;rsquo;s blog.
+A file format defines the structure and encoding of the data stored in it and it is typically identified by its file extension — for example, a filename ending in .</description>
+    </item>
+    
+    <item>
+      <title>Get started with LXC Container in Proxmox</title>
+      <link>https://yanboyang.com/lxccontainerproxmox/</link>
+      <pubDate>Thu, 06 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/lxccontainerproxmox/</guid>
+      <description>Introduction https://pve.proxmox.com/wiki/Linux_Container
+Containers are a lightweight alternative to fully virtualized machines (VMs). They use the kernel of the host system that they run on, instead of emulating a full operating system (OS). This means that containers can access resources on the host system directly.
+The runtime costs for containers is low, usually negligible. However, there are some drawbacks that need be considered:
+  Only Linux distributions can be run in Proxmox Containers.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Istio Service Mesh</title>
+      <link>https://yanboyang.com/istio/</link>
+      <pubDate>Thu, 06 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manjaro Linux kernel headers installation</title>
+      <link>https://yanboyang.com/kernel/</link>
+      <pubDate>Thu, 06 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/kernel/</guid>
+      <description>Overview A Linux kernel is the core of a Linux distribution and consists of three things:
+ The kernel itself The kernel&amp;rsquo;s headers The kernel&amp;rsquo;s extra modules  The kernel headers are used to define device interfaces. For example, they can be used to compile the module that controls your computer&amp;rsquo;s video card and driver.
+The main reason you may find yourself needing to install kernel headers is if you are compiling kernel modules and need Linux to access and communicate with hardware as intended.</description>
+    </item>
+    
+    <item>
+      <title>Manjaro Linux Tips</title>
+      <link>https://yanboyang.com/manjaro/</link>
+      <pubDate>Thu, 06 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/manjaro/</guid>
+      <description>I3 WM Screenshot Requirements  maim  1  yay -S xclip    xclip  1  yay -S maim   Set-up Set this on your i3 config file ~/.i3/config
+1 2 3 4 5 6 7 8 9  ## Screenshots bindsym Print exec --no-startup-id maim &amp;#34;/home/$USER/Pictures/$(date)&amp;#34; bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) &amp;#34;/home/$USER/Pictures/$(date)&amp;#34; bindsym Shift+Print exec --no-startup-id maim --select &amp;#34;/home/$USER/Pictures/$(date)&amp;#34; ### Clipboard Screenshots bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png   NOTE: You may remove the default screenshot shortcuts to prevent error.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Hexo blog with Docker</title>
+      <link>https://yanboyang.com/hexowithdocker/</link>
+      <pubDate>Wed, 05 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/hexowithdocker/</guid>
+      <description>Overview This is a tutorial on creating a blog or website using hexo.io (a static site generator).
+We will use Docker as our development environment. Also, we will storge our Hexo development code in Github main branche and all of our generate static pages will hosting in Github Page on gh-pages branches with your own custom domain and https.
+Why we choose Hexo After comparing a multitude of offerings, I settled on the excellent hexo.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Hugo blog</title>
+      <link>https://yanboyang.com/hugo/</link>
+      <pubDate>Wed, 05 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/hugo/</guid>
+      <description>Overview This is a tutorial on creating a blog or website using hugo (a static site generator).
+We will use Docker as our development environment. Also, we will storge our Hugo development code in Github main branche and automate the whole process with Github Action Workflow for Github Pages.
+Prerequisites You will need to have the following:
+ Docker installation. Docker is available for Mac/Windows/Linux and is easily installed. You can following the link at the below for install Docker.</description>
+    </item>
+    
+    <item>
+      <title>Enable USB Sound Card On Android Phone</title>
+      <link>https://yanboyang.com/enableusbsoundcardonandroid/</link>
+      <pubDate>Wed, 05 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/enableusbsoundcardonandroid/</guid>
+      <description>Steps  Enable developer mode  Go to Settings Click &amp;ldquo;About phone&amp;rdquo; 4 Click on &amp;ldquo;Build Number&amp;rdquo; - until developer mode enable When it is done, you will see &amp;ldquo;You are now a developer&amp;rdquo;   Go back to Settings click System Click &amp;ldquo;Developer options&amp;rdquo; Go to MEDIA section Enable USB audio routing - DONE  </description>
+    </item>
+    
+    <item>
+      <title>Getting started with Setup A Kubernetes Cluster</title>
+      <link>https://yanboyang.com/k8s/</link>
+      <pubDate>Wed, 05 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/k8s/</guid>
+      <description>Introduction A Kubernetes Cluster is a group of node or machines running together. At the highest level of Kubernetes, there exist two kinds of servers, a Master and a Worker node. These servers can be Virtual Machine (VM) or physical servers (Bare metal). Together, these servers form a Kubernetes cluster and are controlled by the services that make up the Control Plane. Kubernetes development started by focusing on the key features of an orchestrator, such as replication of an application with load balancing and service discovery, followed by basic health checks and repair features to ensure availability.</description>
+    </item>
+    
+    <item>
+      <title>Install Chinese Input Method in Linux</title>
+      <link>https://yanboyang.com/chineseinputmethod/</link>
+      <pubDate>Wed, 05 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/chineseinputmethod/</guid>
+      <description>Install fcite packages in Manjaro 1  yay -Syu adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts   1  yay -Syu fcitx fcitx-googlepinyin fcitx-im fcitx-configtool   Config Environmental variables 1  vim ~/.profile   add:
+1 2 3 4 5  export GTK_IM_MODULE=fcitx export QT_IM_MODULE=fcitx export XMODIFIERS=@im=fcitx fcitx &amp;amp;   1  source .profile   </description>
+    </item>
+    
+    <item>
+      <title>pfSense with Proxmox</title>
+      <link>https://yanboyang.com/pfsense/</link>
+      <pubDate>Tue, 04 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/pfsense/</guid>
+      <description>Introduction Virtualizing pfSense with Proxmox This following article is about building and running a pfSense® virtual machine under Proxmox 4.4. The guide applies to any newer Proxmox version. Article covers Proxmox networking setup and pfSense virtual machine setup process. The guide does not cover how to install Proxmox. A basic, working, pfSense virtual machine will exist by the end of this article.
+Install Open vSwitch Update the package index and then install the Open vSwitch packages by executing:</description>
+    </item>
+    
+    <item>
+      <title>Get Started with Proxmox</title>
+      <link>https://yanboyang.com/proxmox/</link>
+      <pubDate>Mon, 03 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/proxmox/</guid>
+      <description>Introduction Proxmox Virtual Environment is an open source server virtualization management solution based on QEMU/KVM and LXC. Proxmox VE is based on Debian. You can manage virtual machines, containers, highly available clusters, storage and networks with an integrated, easy-to-use web interface or via CLI.
+Install I recommend you use USB Flash Drive as Installation Medium because it is the faster option.
+Download the installer ISO image You can download ISO image from: https://www.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes vs Docker Swarm</title>
+      <link>https://yanboyang.com/kubervsdocker/</link>
+      <pubDate>Sun, 02 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/kubervsdocker/</guid>
+      <description>Introduction In this tutorial, we will be reviewing what the fundamental similarities and distinctions are between Kubernetes and Docker Swarm. Kubernetes and Docker are two of the major players in container orchestration. Both Kubernetes and Docker Swarm continue to grow in popularity as they are increasingly used by those working with container deployment, orchestration, and management. Across all vertical markets, businesses continue to find new methods of utilization and practice with more uses constantly being discovered.</description>
+    </item>
+    
+    <item>
+      <title>AMLwithAKS</title>
+      <link>https://yanboyang.com/aks/</link>
+      <pubDate>Sat, 01 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/aks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Azure CLI</title>
+      <link>https://yanboyang.com/azurecli/</link>
+      <pubDate>Sat, 01 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/azurecli/</guid>
+      <description>Run Azure CLI in a Docker container You can use Docker to run a standalone Linux container with the Azure CLI pre-installed. Docker gets you started quickly with an isolated environment to run the CLI in. The image can also be used as a base for your own deployments.
+Run in a Docker container Install Install the CLI using docker run.
+1  docker run -it mcr.microsoft.com/azure-cli   NOTE:</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Azure Container Registry (ACR)</title>
+      <link>https://yanboyang.com/acr/</link>
+      <pubDate>Sat, 01 Feb 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/acr/</guid>
+      <description>Introduction Azure Container Registry is a managed, private Docker registry service based on the open-source Docker Registry 2.0. Create and maintain Azure container registries to store and manage your private Docker container images and related artifacts.
+Use Azure container registries with your existing container development and deployment pipelines, or use Azure Container Registry Tasks to build container images in Azure. Build on demand, or fully automate builds with triggers such as source code commits and base image updates.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Docker Networking</title>
+      <link>https://yanboyang.com/dockernetworking/</link>
+      <pubDate>Sun, 05 Jan 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/dockernetworking/</guid>
+      <description>Networking Overview One of the reasons Docker containers and services are so powerful is that you can connect them together, or connect them to non-Docker workloads. Docker containers and services do not even need to be aware that they are deployed on Docker, or whether their peers are also Docker workloads or not. Whether your Docker hosts run Linux, Windows, or a mix of the two, you can use Docker to manage them in a platform-agnostic way.</description>
+    </item>
+    
+    <item>
+      <title>Installing Wechat Desktop Client in Ubuntu Linux</title>
+      <link>https://yanboyang.com/wechat/</link>
+      <pubDate>Sun, 05 Jan 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/wechat/</guid>
+      <description>Introduction WeChat is a popular micro-messaging cross-platform app supporting text, image/videos, group chats with over 900 million active monthly users, mostly in China. Along with the basic messaging facilities, it also provides payment services in China to pay bills, order goods and services, transfer money and much more.
+Using WeChat on Linux desktop Just as you saw for WhatsApp on Linux, WeChat can also be used via a web browser by scanning the QR code.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Workflow</title>
+      <link>https://yanboyang.com/machinelearningworkflow/</link>
+      <pubDate>Sat, 04 Jan 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/machinelearningworkflow/</guid>
+      <description>Machine Learning Development Liftcycle Overview There are two important parts for ML lifecycle (pipeline).
+ Data-flow about how to management/store your data and how to transfer your data in your ML lifecycle. Transfer your data highly regarding with Networking, so in this post, I will talk a little bit about Network Topologgy from On-premises network to Azure Network Topology. Compute Resources/Environments about how to compute your data on each steps, different steps are running within different environments.</description>
+    </item>
+    
+    <item>
+      <title>Using Azure Container Instances with Azure Machine Learning Service</title>
+      <link>https://yanboyang.com/aci/</link>
+      <pubDate>Sat, 04 Jan 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/aci/</guid>
+      <description>Stop and Start ACI for AML endpoint You can use Azure command-line interface (Azure CLI) to stop and start the Azure Container Instances.
+The steps at the below.
+Step 1: Go to your portal and click Cloud Shell Step 2: Check the Container Name using the below command. &amp;ldquo;sklearn-mnist-svc-4dea&amp;rdquo; is my Endpoint name az container list | grep &amp;ldquo;sklearn-mnist-svc-4dea&amp;rdquo; Step 3: Confirm your Container Name for your Endpoint using the below command.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Multi-Basler Trigger Asynchronous</title>
+      <link>https://yanboyang.com/baslertriggerasynchronous/</link>
+      <pubDate>Thu, 02 Jan 2020 06:11:32 +1000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/baslertriggerasynchronous/</guid>
+      <description>Introduction PTP Check network card PTP suuport:
+1 2  yay -S ethtool sudo ethtool -T enp3s0f3   1  yay -S ptpd-git   1  yay -S linuxptp   Software Trigger Asynchronous Synchronous Free Run https://docs.baslerweb.com/synchronous-free-run The Synchronous Free Run camera feature allows you to capture images on multiple cameras at the same time and the same frame rate.
+How It Works If you are using multiple cameras in free run mode, image acquisition is slightly asynchronous due to a variety of reasons, e.</description>
+    </item>
+    
+    <item>
+      <title>Azure Raise Support Ticket/Case and Troubleshooting Guide</title>
+      <link>https://yanboyang.com/azureraisecase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/azureraisecase/</guid>
+      <description>Introduction When you use the Azure platform, you can open a case/ticket at any time when you encounter problems or have questions.
+The steps for raise a new case/ticket  Go to portal. Click question mark.  Click &amp;ldquo;Help+support&amp;rdquo;  Click + New support request  You can open a Technical support request. There is an example.   Troubleshooting Permission Issue If you face the error MSG at the below.</description>
+    </item>
+    
+    <item>
+      <title>Database Concepts</title>
+      <link>https://yanboyang.com/databaseconcepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/databaseconcepts/</guid>
+      <description>The world of data Data is generated every second, all over the world.
+ The Web: homepages, Facebook Twitter, Mobiles and Sensors, Scientific and medical data: satellites, Enterprise information systems.  Data management  Management of data, of different types, is behind almost everything you do on the Web.  Google: Web pages, images, maps Amazon: books and other products Facebook: homepage, images, friendship, posts RMIT: library, student administration, course management, timetable.</description>
+    </item>
+    
+    <item>
+      <title>dns</title>
+      <link>https://yanboyang.com/dns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/dns/</guid>
+      <description>Introduction DNS is a short abbreviation for Domain Name Service which maps the IP and FQDN (Fully Qualified Domain Names) to one another. And by that, the DNS makes it easy to remember the IP. Name servers are the computers that run the DNS.
+So in this tutorial, we are going to install and configure DNS on Ubuntu. Through this tutorial, we will use one of the most common programs used for handling the name server on Ubuntu that is BIND (which is an abbreviation for Berkley Internet Naming Daemon).</description>
+    </item>
+    
+    <item>
+      <title>Docker as Local Development Environment</title>
+      <link>https://yanboyang.com/dockeraslocaldevelopmentenvironment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/dockeraslocaldevelopmentenvironment/</guid>
+      <description>Introduction https://blog.atulr.com/docker-local-environment/
+Perrequires  Install Docker Install Docker Compose  Docker Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
+Docker container To form a mental picture, for the time being just consider a Docker Container as an extremely light weight isolated linux based virtual machine inside which we will run our application service (although containers are not exactly VMs).</description>
+    </item>
+    
+    <item>
+      <title>Essential Mathematics</title>
+      <link>https://yanboyang.com/essentialmathematics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/essentialmathematics/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Getting Started Mininet</title>
+      <link>https://yanboyang.com/mininet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/mininet/</guid>
+      <description>Mininet Overview Mininet is a network emulator which creates a network of virtual hosts, switches, controllers, and links. Mininet hosts run standard Linux network software, and its switches support OpenFlow for highly flexible custom routing and Software-Defined Networking.
+Mininet supports research, development, learning, prototyping, testing, debugging, and any other tasks that could benefit from having a complete experimental network on a laptop or other PC.
+Mininet:
+ Provides a simple and inexpensive network testbed for developing OpenFlow applications Enables multiple concurrent developers to work independently on the same topology Supports system-level regression tests, which are repeatable and easily packaged Enables complex topology testing, without the need to wire up a physical network Includes a CLI that is topology-aware and OpenFlow-aware, for debugging or running network-wide tests Supports arbitrary custom topologies, and includes a basic set of parametrized topologies is usable out of the box without programming, but also Provides a straightforward and extensible Python API for network creation and experimentation.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with FFmpeg</title>
+      <link>https://yanboyang.com/ffmpeg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/ffmpeg/</guid>
+      <description>Overview FFmpeg is a free software project and is the leading software for everything related to multimedia like video encoding, streaming and muxing.
+FFmpeg - &amp;ldquo;FF&amp;rdquo; mean &amp;ldquo;Fast Forward&amp;rdquo;, &amp;ldquo;mpeg&amp;rdquo; mean &amp;ldquo;Moving Picture Expers Group&amp;rdquo;
+Installation https://github.com/jrottenberg/ffmpeg
+https://www.whoishostingthis.com/compare/ffmpeg/resources/
+alias ffmpeg=&amp;lsquo;docker run -v=pwd:/tmp/ffmpeg opencoconut/ffmpeg&amp;rsquo;
+1  yay -S ffmpeg   Using Linux Terminal to Install VLC in Ubuntu sudo snap install vlc
+Invert the video stream to a virtual video camera If your video stream is inverted, you can make a new virtual video camera which inverts the inverted video.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Password Master (Bitwarden)</title>
+      <link>https://yanboyang.com/passwordmaster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/passwordmaster/</guid>
+      <description>Introduction Installation 1  yay -S bitwarden-cli   1 2 3 4 5 6 7 8 9 10 11  [yanboyang713@Boyang-PC~]$bwlogin?Emailaddress:yanboyang713@gmail.com?Masterpassword:[hidden]Youareloggedin!Tounlockyourvault,setyoursessionkeytothe`BW_SESSION`environmentvariable.ex:$exportBW_SESSION=&amp;#34;082KKVK/t0NjLQ7AiFRkuC/G/4pilfC05UCXedpAILtyHfEs0jnZGPmIT43BVbcGUfnPgvUved7Z90+8Rk0vKg==&amp;#34;&amp;gt;$env:BW_SESSION=&amp;#34;082KKVK/t0NjLQ7AiFRkuC/G/4pilfC05UCXedpAILtyHfEs0jnZGPmIT43BVbcGUfnPgvUved7Z90+8Rk0vKg==&amp;#34;Youcanalsopassthesessionkeytoanycommandwiththe`--session`option.ex:$bwlistitems--session082KKVK/t0NjLQ7AiFRkuC/G/4pilfC05UCXedpAILtyHfEs0jnZGPmIT43BVbcGUfnPgvUved7Z90+8Rk0vKg==  1  yay -S yarn npm   1  bash &amp;lt;(curl -s https://raw.githubusercontent.com/AZMCode/git-credential-bw/master/devScripts/install.sh)   1  sudo npm install -g tslib   </description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Zotero</title>
+      <link>https://yanboyang.com/zotero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/zotero/</guid>
+      <description>Introduction Why Use Zotero?  Be Organized: Keep all of your research and citations in one place Save time: Format fewer citations by hand Collaborate: Work with anyone in the world, anytime It&amp;rsquo;s Free: No cost even after you  Zotero Installation 1  yay -S zotero   Launch Zotero Create a Zotero Account If you haven’t already created a Zotero account, please take a few moments to register now Here.</description>
+    </item>
+    
+    <item>
+      <title>How to install Docker, Nvidia Docker and Docker Compose</title>
+      <link>https://yanboyang.com/dockerinstall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/dockerinstall/</guid>
+      <description>Install Docker https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04 https://docs.docker.com/engine/install/ubuntu/
+Step 1 — Installing Docker The Docker installation package available in the official Ubuntu repository may not be the latest version. To ensure we get the latest version, we’ll install Docker from the official Docker repository. To do that, we’ll add a new package source, add the GPG key from Docker to ensure the downloads are valid, and then install the package.
+First, update your existing list of packages:</description>
+    </item>
+    
+    <item>
+      <title>Install Tensorflow 2.1 on Ubuntu 18.04 LTS with GPU support</title>
+      <link>https://yanboyang.com/tensorflowgpusupport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yanboyang713@gmail.com (Boyang Yan)</author>
+      <guid>https://yanboyang.com/tensorflowgpusupport/</guid>
+      <description>Introduction This post document is about how to build GPU support environment for Tensorflow 2.1. This document will include install Nvidia driver, CUDA Toolkit, cuDNN on Ubuntu 18.04.
+Hardware Environment Secure UEFI Boot An issue that often arises when attempting to install Nvidia drivers on Linux involves a motherboard setting known as Secure UEFI Boot. In order for the driver installation to be successful it is necessary to disable this setting on most motherboards.</description>
+    </item>
+    
+  </channel>
+</rss>
