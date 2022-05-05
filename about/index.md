@@ -11,44 +11,26 @@ int xv,yv;
 
 
 # Working Experience
-1. 2020.3 - 2021.6
-	* Support Engineer
-	* Microsoft, China
-	* Azure Machine Learning CSS Team
-2. 2018.12 - 2020.3
-	* Algorithm Engineer
-	* Peng Chen Laboratory, China
-	* Network Communication Research Center
-3. 2018.1 - 2018.11
-	* Research Assistant (Computer Science)
-	* University of Wollongong, Australia
-	* Metamorphic Testing - Software Testing
+2. 2022.3 - Now
+	* CRA(Clinical Research Associate)，Academic promotion
+	* Beijing Diagreat Biotechnologies Co.,Ltd
+	* Marketing Department
+3. 2021.10 - 2022.03
+	* Biological researcher 
+	* Pharmaron Beijing Co.,Ltd.
+	* Biology 2
 
 # Education
-1. 2021.3 - now
-    * Master of Statistics and Operations Research
-    * Royal Melbourne Institute of Technology (RMIT), Australia
-1. 2019.3 - 2020
-	* Netmath
-	* University of Illinois (Urbana–Champaign)
-	* Major in Mathematics
-2. 2014.3 - 2017.12
-	* Bachelor of Computer Science
-	* University of Wollongong, Australia
-	* Major in Software Engineering
-	* Main Achievement:
-		1. The best final project prize (Human Research Management System base on Web)
-		2. First Three Semester had: Undergraduate Excellence Scholarship
-3. 2013.3 - 2014.3
-	* English for Tertiary Studies
+1. 2018.9 - 2021.7
+	* Kinesiology 
 	* University of Wollongong College, Australia
-	* Main subjects: Academic English
-4. 2011.9 - 2013.3
-	* Bachelor of Business Management
-	* China University Of Mining And Technology
-	* Average mark of 91\% . Most of courses got High Distinction
+	* Major in cellular and molecular biology  
+2. 2014.9 - 2018.6
+	* Social Sports Guidance and Management
+	* Huang Huai University 
+	* Major in Aerobics
 # Publications
-* Boyang Yan, Brian Yecies, Zhi Quan Zhou: Metamorphic Relations for Data Validation: A Case Study of Translated Text Messages. IEEE/ACM 4th International Workshop on Metamorphic Testing (MET '19), in conjunction with the 41st International Conference on Software Engineering (ICSE '19), Montreal, Canada; 05/2019
+* Guo Wenping, Wang Aijia, Quan Lei: Association analysis of Dusp gene family with lung cancer, colorectal cancer and gastric cancer (poster);；08/2020
 
 # Patents
 1. June 2, 2020
@@ -56,13 +38,9 @@ int xv,yv;
 	* China Patent Office Application ID: 202010489931.8
 
 # Academy Congress and Conference
-1. May 26, 2019
-	* Paper Presentation - Title: Metamorphic Relations for Data Validation: A Case Study of Translated Text Messages
-	* ICSE, Montreal, Canada
-
-2. August 11, 2017
-	* showing my final year project about Human Resource Management System based on Web (whole swap card subsystem and database are finish independently)
-	* IEEE Sections Congress (SC2017), Sydney, Australia
+1. August 21, 2020
+	* Paper Presentation - Title: Association analysis of Dusp gene family with lung cancer, colorectal cancer and gastric cancer
+	* Chinese Physiological Society Academic Annual Meeting, online meeting
 
 # Certifications
 1. 2019
