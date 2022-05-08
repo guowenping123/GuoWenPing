@@ -1,8 +1,29 @@
 # Overview
 This is  Wenping Guo's personal blog, set-up by Hugo
 
-# How to set-up
-If you want to set-up a Hugo website, please following the [Link](https://www.guowenping.com).
+# A Programmer's Guide to Kinesiology-Cellular and Molecular Biology
+专为运动人体科学专业-细胞分子生物学方向的同学编写的实验学习指南。
 
-# Note:
-If you have any questions about this blog, please contact with me by email (yanboyang713@gmail.com). Thanks.
+## 本指南的内容概要和目标人群
+
+在本人还未进入实验室开始实验时，对做实验可谓一窍不通，但对做实验又充满了好奇和渴望；也许是这份好奇让我从一个科研小白逐渐成长为一个做实验的溜子。本人是运动人体科学专业-细胞分子生物学方向，主要以细胞实验为主。从细胞的接收、细胞的复苏、细胞的培养和冻存，以及到细胞的核酸提取为主，这一实验过程积累了一点经验。又因毕业设计的实验要求对引物设计、PCR技术、DNA甲基化实验技术也有一些实操经验。后期也接触过关于质粒的提取过程。在此做以总结和分享。
+
+目标人群是**对做实验没有任何基础的朋友**，尤其适合刚接触细胞分子方向领域的同学。
+
+需要补充的是，由于本人的水平有限而且也在持续学习中，后续会经常完善、升级、更新本指南，**强烈建议 Watch 并时而回来看看**。因此如果转载本指南，请保留出处避免信息过时。如有异议或者建议，也十分欢迎在 Issue 中讨论。
+
+## 正文内容
+
+请移步：
+
+- [细胞培养系列]
+- [核酸提取系列]
+- [引物设计系列]
+- [PCR系列]
+- [常见问题 FAQ]
+
+## 写在后面
+
+
+
+
