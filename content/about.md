@@ -52,6 +52,7 @@ int xv,yv;
 	* Xincai County, Zhumadian City, Henan Province, China
 	* Received the second-class scholarship for postgraduate students of Tianjin  University of Sport
 	* TianJin University of Sport，TianJin,China
+	
 3.2019
         * Cheerleading Championship Group B first place
 	* National Cheerleading Championships，TianJin,China
@@ -63,9 +64,11 @@ int xv,yv;
 4. 2018
 	* Obtained the title of "Excellent pacesetter" in postgraduate military training
 	* TianJin University of Sport,TianJin,China
+	
 5. 2017
 	* Outstanding Excellent Student Scholarship
 	* Huang Huai University,China
+	
 6. 2016
 	* Outstanding Excellent Student Scholarship
 	* Huang Huai University,China
@@ -75,6 +78,7 @@ int xv,yv;
 	* Awarded the title of Outstanding "Civilized Students" and "Three Good Students"
 	* Outstanding Excellent Student Scholarship
 	* Huang Huai University,China
+	
 8. 2014
 	* Campus Singing Competition "The Voice of Youth Dream-super show" Excellence Award 
 	* Huang Huai University,China
