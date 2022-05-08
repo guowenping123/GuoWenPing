@@ -38,7 +38,7 @@ int xv,yv;
 	* Chinese Physiological Society Academic Annual Meeting, online meeting
 
 # Certifications
-1. 2018
+1. 2021
 	* Cardiopuimonary ResuscitatiOR，CPR
 	* Red Cross Society of Binhai New Area, Tianjin, China
 	* Chinese Cheerleading Coach Qualification Certificate
