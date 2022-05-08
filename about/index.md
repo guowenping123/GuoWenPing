@@ -11,11 +11,11 @@ int xv,yv;
 
 
 # Working Experience
-2. 2022.3 - Now
+1. 2022.3 - Now
 	* CRA(Clinical Research Associate)，Academic promotion
 	* Beijing Diagreat Biotechnologies Co.,Ltd
 	* Marketing Department
-3. 2021.10 - 2022.03
+2. 2021.10 - 2022.03
 	* Biological researcher 
 	* Pharmaron Beijing Co.,Ltd.
 	* Biology 2
@@ -38,13 +38,13 @@ int xv,yv;
 	* Chinese Physiological Society Academic Annual Meeting, online meeting
 
 # Certifications
-1.2021
+ 1.2021
         * Cardiopuimonary ResuscitatiOR，CPR
 	* Red Cross Society of Binhai New Area, Tianjin, China
 	* Chinese Cheerleading Coach Qualification Certificate
 	* Gymnastics Management Center of General Administration of Sport of China,China
 
-2.2020
+ 2.2020
         * Won the title of "Outstanding Volunteer for Corona Virus Disease 2019，COVID-19 Prevention and Control"
 	* Xincai County, Zhumadian City, Henan Province, China
 	* Received the second-class scholarship for postgraduate students of Tianjin  University of Sport
