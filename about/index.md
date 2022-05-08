@@ -45,7 +45,7 @@ int xv,yv;
 	* Gymnastics Management Center of General Administration of Sport of China,China
 
 2. 2020
-        * Won the title of "Outstanding Volunteer for Corona Virus Disease 2019，COVID-19 Prevention and Control"
+        * Won the title of "Outstanding Volunteer for Corona Virus Disease 2019，COVID-19 Prevention and Control" 
 	* Xincai County, Zhumadian City, Henan Province, China
 	* Received the second-class scholarship for postgraduate students of Tianjin  University of Sport
 	* TianJin University of Sport，TianJin,China
