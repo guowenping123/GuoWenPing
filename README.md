@@ -1,5 +1,3 @@
-# Overview
-This is  Wenping Guo's personal blog, set-up by Hugo
 
 # A Programmer's Guide to Kinesiology-Cellular and Molecular Biology
 专为运动人体科学专业-细胞分子生物学方向的同学编写的实验学习指南。
