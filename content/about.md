@@ -26,19 +26,14 @@ int xv,yv;
 # Education
 1. 2018.9 - 2021.7
 	* Kinesiology 
-	* University of Wollongong College, Australia
+	* TianJin University of Sport
 	* Major in cellular and molecular biology  
 2. 2014.9 - 2018.6
 	* Social Sports Guidance and Management
 	* Huang Huai University 
 	* Major in Aerobics
 # Publications
-* Guo Wenping, Wang Aijia, Quan Lei: Association analysis of Dusp gene family with lung cancer, colorectal cancer and gastric cancer (poster);；08/2020
-
-# Patents
-1. June 2, 2020
-	* An automated text difference analysis and verification system/method
-	* China Patent Office Application ID: 202010489931.8
+* WenPing Guo;Analysis of the current situation of the development of children's physical intelligence courses, taking private kindergartens in Yicheng District, Zhumadian City as an example；Middle School Students' Guide. Teaching Research；08/2020
 
 # Academy Congress and Conference
 1. August 21, 2020
@@ -46,24 +41,43 @@ int xv,yv;
 	* Chinese Physiological Society Academic Annual Meeting, online meeting
 
 # Certifications
-1. 2019
-	* First Aid CPR AED
-	* American Heart Association
-2. 2017
-	* Amateur Radio Operator's certificate of proficiency (Standard)
-	* The Wireless Institute of Australia (WIA)
-3. 2016
-	* Ross a. Hull memorial Vhf-Uhf contest
-	* The Wireless Institute of Australia (WIA)
-	* Twelfth Place in Section A (Analog Modes, Best 7 Days) and Twelfth Place in Section C (Analog Modes, Best 2 Days)
+1.2021
+        * Cardiopuimonary ResuscitatiOR，CPR
+	* Red Cross Society of Binhai New Area, Tianjin, China
+	* Chinese Cheerleading Coach Qualification Certificate
+	* Gymnastics Management Center of General Administration of Sport of China,China
 
-4. 2014
-	* Amateur Radio Operator's certificate of proficiency (Foundation)
-	* The Wireless Institute of Australia (WIA)
-5. 2010
-	* The Second Place Prize Awarded, Tianjin School Sports Competition Award "92" National Games Tianjin
-	* Tianjin Basketball Tryouts, China
-	* High school men's Group B. Primary and Secondary (Vocational) School Basketball Games. Have got the second grading certificate and title
+1.2020
+        * Won the title of "Outstanding Volunteer for Corona Virus Disease 2019，COVID-19 Prevention and Control"
+	* Xincai County, Zhumadian City, Henan Province, China
+	* Received the second-class scholarship for postgraduate students of Tianjin  University of Sport
+	* TianJin University of Sport，TianJin,China
+2.2019
+        * Cheerleading Championship Group B first place
+	* National Cheerleading Championships，TianJin,China
+	* The second place in the open group of the hip-hop competition
+	* Beijing-Tianjin-Hebei Campus Street Dance Competition，TianJin,China
+	* Received the second-class scholarship for postgraduate students of Tianjin  University of Sport
+	* TianJin University of Sport，TianJin,China
+
+1. 2018
+	* Obtained the title of "Excellent pacesetter" in postgraduate military training
+	* TianJin University of Sport,TianJin,China
+2. 2017
+	* Outstanding Excellent Student Scholarship
+	* Huang Huai University,China
+3. 2016
+	* Outstanding Excellent Student Scholarship
+	* Huang Huai University,China
+
+4. 2015
+	* Outstanding National Inspirational Scholarship
+	* Awarded the title of Outstanding "Civilized Students" and "Three Good Students"
+	* Outstanding Excellent Student Scholarship
+	* Huang Huai University,China
+5. 2014
+	* Campus Singing Competition "The Voice of Youth Dream-super show" Excellence Award 
+	* Huang Huai University,China
 
 
 
