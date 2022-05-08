@@ -44,12 +44,12 @@ int xv,yv;
 	* Chinese Cheerleading Coach Qualification Certificate
 	* Gymnastics Management Center of General Administration of Sport of China,China
 
-1.2020
+2.2020
         * Won the title of "Outstanding Volunteer for Corona Virus Disease 2019，COVID-19 Prevention and Control"
 	* Xincai County, Zhumadian City, Henan Province, China
 	* Received the second-class scholarship for postgraduate students of Tianjin  University of Sport
 	* TianJin University of Sport，TianJin,China
-2.2019
+3.2019
         * Cheerleading Championship Group B first place
 	* National Cheerleading Championships，TianJin,China
 	* The second place in the open group of the hip-hop competition
@@ -57,22 +57,22 @@ int xv,yv;
 	* Received the second-class scholarship for postgraduate students of Tianjin  University of Sport
 	* TianJin University of Sport，TianJin,China
 
-1. 2018
+4. 2018
 	* Obtained the title of "Excellent pacesetter" in postgraduate military training
 	* TianJin University of Sport,TianJin,China
-2. 2017
+5. 2017
 	* Outstanding Excellent Student Scholarship
 	* Huang Huai University,China
-3. 2016
+6. 2016
 	* Outstanding Excellent Student Scholarship
 	* Huang Huai University,China
 
-4. 2015
+7. 2015
 	* Outstanding National Inspirational Scholarship
 	* Awarded the title of Outstanding "Civilized Students" and "Three Good Students"
 	* Outstanding Excellent Student Scholarship
 	* Huang Huai University,China
-5. 2014
+8. 2014
 	* Campus Singing Competition "The Voice of Youth Dream-super show" Excellence Award 
 	* Huang Huai University,China
 
