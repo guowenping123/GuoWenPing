@@ -1,0 +1,74 @@
+#入门级Python
+
+#导入环境
+import numpy as np
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = 'all'
+
+#相关联系题
+1. Assign a = 10 and b = 20. Print the result for (a + b)2 / (a - b).
+a = 10
+b = 20
+print((a + b)**2/(a - b))
+
+2. Implement the following tasks concerning a string variable.
+(1) Define a string variable s = '' What you are you do not see, what you see is your shadow."
+s = "What you are you do not see, what you see is your shadow."
+(2) Return the number of characters in s.
+print(len(s))
+(3) Test whether s starts with the substring "What".
+s.startswith('What')
+True
+(4) Test whether s ends with the substring "shadow."
+s.endswith('shadow.')
+True
+(5) Find the substring "see" in s.
+s.find('see')
+(6) Based on s, return a new string with all occurrences of "you" replaced with "I", "your" replaced with "my", and "are" replaced with "am".
+s.replace('your', 'my').replace('you', 'I').replace('are', 'am')
+'What I am I do not see, what I see is my shadow.'
+(7) Split s into a list of strings by white space.
+s.split(' ')
+['What',
+ 'you',
+ 'are',
+ 'you',
+ 'do',
+ 'not',
+ 'see,',
+ 'what',
+ 'you',
+ 'see',
+ 'is',
+ 'your',
+ 'shadow.']
+(8) Turn s to all upper case.
+s.upper()
+'WHAT YOU ARE YOU DO NOT SEE, WHAT YOU SEE IS YOUR SHADOW.'
+(9) Turn s to all lower case.
+s.lower()
+'what you are you do not see, what you see is your shadow.'
+(10) Count the number of character 'y' in s.
+s.count("y")
+4
+(11) Remove any leading (at the beginning) and trailing (at the end) white space in s.
+s.strip()
+'What you are you do not see, what you see is your shadow.'
+
+#3. Implement the following tasks concerning numeric types.
+(1) Convert string "-100" to integer 100 and assign the result to i.
+a = "-100"
+i = -int(a)
+print(i)
+type(i)
+100
+int
+
+(2) Convert string "3.25" to float value 3.25 and assign the result to f.
+b = "3.25"
+f = float(b)
+print(f)
+type(f)
+3.25
+float
+
